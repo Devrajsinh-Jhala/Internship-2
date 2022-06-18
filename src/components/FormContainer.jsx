@@ -29,8 +29,8 @@ const FormContainer = () => {
                   />
                 </div>
                 <div className="col-span-6 sm:col-span-4">
-                  <fieldset className="col-span-6">
-                    <legend className="block text-sm font-semibold text-gray-700 mb-2">
+                  <fieldset className="col-span-6 font-inter">
+                    <legend className="block font-inter text-[15px] text-gray-900 mb-2">
                       Did you get an offer?
                     </legend>
                     <div className="space-y-2">
@@ -40,7 +40,7 @@ const FormContainer = () => {
                           name="Yes"
                           className=" focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 "
                         />
-                        <label className=" ml-3 block font-normal text-[15px] leading-6 text-gray-700 ">
+                        <label className=" ml-3 block font-normal text-[15px] leading-6 text-gray-400 ">
                           Yes
                         </label>
                       </div>
@@ -50,7 +50,7 @@ const FormContainer = () => {
                           name="Yes"
                           className=" focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 "
                         />
-                        <label className=" ml-3 block font-normal text-[15px] leading-6 text-gray-700 ">
+                        <label className=" ml-3 block font-normal text-[15px] leading-6 text-gray-400 ">
                           No
                         </label>
                       </div>

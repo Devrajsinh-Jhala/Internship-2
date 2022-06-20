@@ -14,7 +14,7 @@ const DropDown2 = () => {
   return (
     <div className="flex flex-col items-center justify-start">
       <div>
-        <p className="font-inter ml-16  py-2 text-[15px] leading-6">
+        <p className="font-inter ml-16 font-semibold  py-2 text-[14px] leading-5">
           Years of Experience you have?
         </p>
         <button

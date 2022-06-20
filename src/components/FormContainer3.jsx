@@ -5,14 +5,14 @@ import RichEditorExample from "../components/RichTextEditor/RichEditorExample";
 
 const FormContainer3 = () => {
   return (
-    <div className="pl-[19.5rem] ">
+    <div className="pl-[16.5rem] ">
       <div className="">
         <div className="bg-[#f8f8f8]  h-[100vh] flex items-center justify-between">
           <div className="px-4 py-4">
             <div className="px-3 mt-4 py-4 w-[600px] h-[100vh] bg-white">
               <div className="">
                 <div className="">
-                  <p className="font-inter text-[15px] leading-6 mb-2">
+                  <p className="font-inter font-semibold text-[15px] leading-5 mb-2">
                     Top topics you prepared? (Mention atleast 5 with comma
                     seperated)
                   </p>
@@ -31,7 +31,7 @@ const FormContainer3 = () => {
                 </div>
 
                 <div className="mt-8">
-                  <p className="font-inter text-[15px] leading-6 mb-2">
+                  <p className="font-inter font-semibold text-[14px] leading-5 mb-2">
                     Preparation Tips (Mention atleast two tips line seperated)
                   </p>
 

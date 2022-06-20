@@ -3,7 +3,7 @@ import React from "react";
 const SideBar = () => {
   return (
     <div className="max-w-8xl mx-auto px-2 sm:px-4 md:px-0">
-      <div className="hidden border border-l-2 font-inter lg:block fixed z-20 inset-0 top-[3.8125rem] left -[max(0, calc(50%-45rem))] right-auto w-[19.5rem] pb-10 px-8 overflow-y-auto ">
+      <div className="hidden border border-l-2 font-inter lg:block fixed z-20 inset-0 top-[3.8125rem] left -[max(0, calc(50%-45rem))] right-auto w-[16.5rem] pb-10 pl-8 overflow-y-auto ">
         <nav className="lg:text-sm lg:leading-6 -mt-4">
           <div className=" sticky top-0 -ml-0.5 pointer-events-none ">
             <div className=" h-10 bg-white dark:bg-slate-900 "></div>

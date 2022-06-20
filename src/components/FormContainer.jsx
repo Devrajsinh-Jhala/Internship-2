@@ -3,7 +3,7 @@ import DropDown from "./DropDown";
 
 const FormContainer = () => {
   return (
-    <div className="pl-[19.5rem] ">
+    <div className="pl-[16.5rem] ">
       <div className="">
         <div className="bg-[#f8f8f8]  h-[100vh] flex items-center">
           <div className="px-4 py-4">
@@ -24,7 +24,7 @@ const FormContainer = () => {
 
                 <div className="col-span-6 sm:col-span-4">
                   <fieldset className="col-span-6 font-inter">
-                    <legend className="block font-inter text-[15px] text-gray-900 mb-2">
+                    <legend className="block font-inter font-semibold text-[14px] text-gray-900 mb-2">
                       Did you get an offer?
                     </legend>
                     <div className="space-y-2">
@@ -34,7 +34,7 @@ const FormContainer = () => {
                           name="Yes"
                           className=" focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 "
                         />
-                        <label className=" ml-3 block font-normal text-[15px] leading-6 text-black ">
+                        <label className=" ml-3 block font-normal text-[15px] leading-5 text-black ">
                           Yes
                         </label>
                       </div>
@@ -44,7 +44,7 @@ const FormContainer = () => {
                           name="Yes"
                           className=" focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 "
                         />
-                        <label className=" ml-3 block font-normal text-[15px] leading-6 text-black ">
+                        <label className=" ml-3 block font-normal text-[14px] leading-5 text-black ">
                           No
                         </label>
                       </div>
